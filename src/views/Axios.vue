@@ -49,16 +49,14 @@ export default defineComponent({
 </script>
 
 <style scoped lang="stylus">
-
 .axios-container {
-
   .user-info-container {
-    display flex
-    justify-content center
-    width 100%
+    display: flex;
+    justify-content: center;
+    width: 100%;
 
     .info-list-box {
-      padding 10px
+      padding: 10px;
 
       .text {
         font-size: 14px;
@@ -67,7 +65,6 @@ export default defineComponent({
       .item {
         margin-bottom: 18px;
       }
-
     }
 
     .card-header {
@@ -79,8 +76,6 @@ export default defineComponent({
     .box-card {
       width: 480px;
     }
-
   }
-
 }
 </style>
